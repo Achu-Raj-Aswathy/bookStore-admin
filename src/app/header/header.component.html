@@ -1,0 +1,8 @@
+<nav class="navbar p-3" style="background-color: #2a7474;">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="#">
+      <i class="fa-solid fa-users-gear me-3 ms-3"></i>Bookstore Admin
+    </a>
+    <button *ngIf="isLoggedIn" class="btn btn-outline-secondary text-light" (click)="logout()">Logout</button>
+  </div>
+</nav>
